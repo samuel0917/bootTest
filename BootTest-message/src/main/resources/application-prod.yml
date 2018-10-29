@@ -1,0 +1,13 @@
+server:
+  port: 8980
+
+spring:
+    profiles: prod
+  
+
+
+
+        
+       
+   
+        

@@ -1,0 +1,13 @@
+server:
+  port: 89801
+
+spring:
+    profiles: test
+   
+
+
+
+        
+       
+   
+        
