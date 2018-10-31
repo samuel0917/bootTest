@@ -4,10 +4,5 @@ server:
 spring:
     profiles: local
    
-
-
-
-        
-       
-   
-        
+mns: 
+  saveLocQueue: save-loc-queue-dev

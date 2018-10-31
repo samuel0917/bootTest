@@ -1,13 +1,8 @@
 server:
-  port: 8980
+  port: 8081
 
 spring:
-    profiles: prod
-  
-
-
-
-        
-       
+    profiles: local
    
-        
+mns: 
+  saveLocQueue: save-loc-queue-prod

@@ -1,9 +1,13 @@
 server:
-  port: 89801
+  port: 8981
 
 spring:
     profiles: test
    
+mns: 
+  saveLocQueue: save-loc-queue-test
+
+
 
 
 

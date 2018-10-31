@@ -7,6 +7,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
+import com.wenchao.boottest.service.TestService;
+
 
 
 
@@ -18,8 +20,8 @@ public class DemoApplication {
     public static void main(String[] args) {
 //        SpringApplication.run(DemoApplication.class, args);
     	 ConfigurableApplicationContext run = SpringApplication.run(DemoApplication.class, args);
-//         TestService testService = run.getBean(TestService.class);
-//         testService.test();
+         TestService testService = run.getBean(TestService.class);
+         testService.test();
 
     }
     
