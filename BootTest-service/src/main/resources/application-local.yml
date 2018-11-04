@@ -3,6 +3,16 @@ server:
 
 spring:
     profiles: local
+    redis: 
+      database: 0
+      host: localhost
+      port: 6379
+      password: 
+      jedis: 
+        pool: 
+          max-active: 300
+          max-idle: 100
+          max-wait: 1000
    
 mns: 
   saveLocQueue: save-loc-queue-dev
