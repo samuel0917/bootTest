@@ -57,10 +57,7 @@
 		    <groupId>io.shardingsphere</groupId>
 		    <artifactId>sharding-jdbc</artifactId>
 		</dependency>
-		<dependency>
-		    <groupId>com.alibaba</groupId>
-		    <artifactId>fastjson</artifactId>
-		</dependency>
+		
 		<dependency>
             <groupId>BootTest</groupId>
     		<artifactId>BootTest-common</artifactId>

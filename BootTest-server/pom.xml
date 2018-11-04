@@ -24,20 +24,20 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		<dependency>
+		
+        <dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-redis</artifactId>
+		    <artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
-        <!-- Mysql数据库链接jar包 -->
 		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-		</dependency>
-		<!-- alibaba的druid数据库连接池 -->
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
 		<dependency>
-			<groupId>com.alibaba</groupId>
-			<artifactId>druid</artifactId>
-		</dependency>
+            <groupId>BootTest</groupId>
+    		<artifactId>BootTest-service</artifactId>
+            <version>${project.version}</version>
+        </dependency>
   </dependencies>
   
   <build>
